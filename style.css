@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
 }
@@ -45,4 +49,99 @@ form input[type="checkbox"]:checked{
     background-color: yellow;
   }
 
+form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+  form input {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+
+  /* form input:invalid {
+    border: 2px solid navy;
+    background-color: red;
+    color: #fff;
+  }
+
+  form input:valid {
+    border: 2px solid navy;
+    background-color: lightgreen;
+    color: #fff;
+  } */
+
+
+  input:first-of-type(2) {
+    color: red;
+  }
+
+
+  q {
+    quotes: 'a ' ' z';
+  }
+
+
+  q:lang(bn) {
+    quotes: 'bangla ' ' bangla';
+    background-color: lightgreen;
+  }
+
+
+
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+}
+
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  nav ul li {
+    margin-right: 10px;
+  }
+
+  nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: tomato;
+    padding: 5px 7px;
+  }
+
+
+  #home {
+    background-color: wheat;
+    margin-top: 60px;
+  }
+
+  #about {
+    background-color: pink;
+    margin-top: 60px;
+  }
+
+  #team {
+    background-color: green;
+    margin-top: 60px;
+  }
+
+  #blog {
+    background-color: blueviolet;
+    margin-top: 60px;
+  }
+
+  #contact {
+    background-color: yellowgreen;
+    margin-top: 60px;
+  }
+
+  :target {
+    color: white;
+  }
