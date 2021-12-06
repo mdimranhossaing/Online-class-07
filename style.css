@@ -11,3 +11,38 @@ h1:hover{
 form input[type="checkbox"]:checked{
     width: 600px;
 }
+.container p:first-child{
+    color:orange;
+}
+.container p:last-child{
+    color:rgb(204, 0, 255);
+}
+.container p:first-of-type{
+    color:red;
+}
+
+/* unvisited link */
+.link a:link {
+    color: red;
+  }
+  
+  /* visited link */
+ .link a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  .link a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  .link a:active {
+    color: blue;
+  }
+/*focus*/
+  .focus input:focus {
+    background-color: yellow;
+  }
+
+
